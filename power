@@ -1,0 +1,7 @@
+(define (power base exponent)
+ (cond ((zero? exponent) 1)
+ ((zero? (remainder exponent 2)) (* (power base (quotient exponent 2))
+ (power base (quotient exponent 2))))
+ (else (* base
+ (power base (quotient exponent 2))
+ (power base (quotient exponent 2))))))
