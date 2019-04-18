@@ -1,0 +1,7 @@
+(define (mylength lst)
+  (cond
+    ((empty? lst) 0)
+    (else (+ 1 (mylength (cdr lst))))
+  )
+)
+;; racket
