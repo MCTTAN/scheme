@@ -1,0 +1,7 @@
+(define (area-circle r)
+  (* pi r r)
+)
+
+(define (area-donut h r2)
+  (- (* pi r2 r2 h) (* area-circle h))
+)
