@@ -1,0 +1,3 @@
+(define (area-circle r)
+  (* pi r r)
+)
