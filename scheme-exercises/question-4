@@ -1,0 +1,2 @@
+;; Write a Scheme functon to calculate the area of a disk.
+;; i.e. 3.14 * r * r
