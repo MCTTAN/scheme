@@ -1,0 +1,3 @@
+(define (triple-everything numbers)
+ (if (null? numbers) '()
+ (cons (* 3 (car numbers)) (triple-everything (cdr numbers)))))
