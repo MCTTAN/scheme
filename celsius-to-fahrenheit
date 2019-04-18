@@ -1,0 +1,2 @@
+(define (celsius->fahrenheit celsius)
+(+ (* 1.8 celsius) 32))
