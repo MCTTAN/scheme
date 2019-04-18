@@ -3,5 +3,6 @@
     ((empty? lst) 0)
     (else (+ 1 (mylength (cdr lst))))
   )
+  (iteration lst 0)
 )
 ;; racket
