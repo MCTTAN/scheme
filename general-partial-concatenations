@@ -1,0 +1,7 @@
+(define (generate-concatenations strings)
+ (generate-concatenations-using strings ""))
+(define (generate-concatenations-using strings accum)
+ (if (null? strings) '()
+ (cons (string-append accum (car strings))
+ (generate-concatenations-using (cdr strings)
+ (string-append accum (car strings))))))
